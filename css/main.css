@@ -1,0 +1,112 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#main-page-article-list {
+  text-align: left;
+}
+h1 {
+    color:#7da128;
+}
+#top-sticky {
+    background-color: #a6cf46;
+    position:sticky;
+    top:0;
+    text-align: center;
+}
+#top-sticky button {
+    background: transparent;
+    border:4px solid #5bbf04;
+    font-family: 'PT Sans', sans-serif;
+    font-size: medium;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#top-text {
+    background-color: #daf0a5;
+    padding:20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#shade,
+#modal {
+  display: none;
+}
+
+#shade {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#modal {
+  position: fixed;
+  z-index: 101;
+  top: 33%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+#loading-text {
+    color:#dae0d1;
+}
+
+#shade {
+  background: silver;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #dae0d1;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: 390px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+#article-list {
+  display: none;
+}
+#main-page-article-list button {
+  margin: 30px;
+  height: 300px;
+  border: 5px solid #e7ebd8;
+  background-color: #caccc0;
+  font-family: 'PT Sans', sans-serif;
+}
+#article-list button {
+  margin: 30px;
+  height: 300px;
+  border: 5px solid #e7ebd8;
+  background-color: #caccc0;
+  font-family: 'PT Sans', sans-serif;
+}
+#articleOne, #articleTwo, #articleThree, #articleFour, #articleFive {
+  margin-top: 100px;
+  display: none;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+}
+#articleOne h1 {
+  color: #709644;
+}
