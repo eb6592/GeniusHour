@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Genius Hour Project - About coding and help with technology</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+        <script src="js/main.js"></script>
+        <script src="js/page-swapper.js"></script>
+    </head>
+    <body>
+        <div id="top-sticky"><button onclick="loadHomePage()">Main Page</button></div>
+        <div id="main-page">
+        <div id="top-text">
+        <h1 style="text-align:center;">Facts about coding and some help with technology!</h1>
+        </div>
+        <div id="main-page-article-list">
+            <button onclick="loadArticleOne()">
+                <h3>What is coding?</h3>
+                <img src="https://code.org/shared/images/courses/logo_tall_weblab.jpg" width='350' height='200'>
+            </button>
+            <button onclick="loadArticleTwo()">
+                <h3>How can I edit a picture?</h3>
+                <img src="https://learnubuntumate.weebly.com/uploads/1/0/8/4/108446579/pixlr013_orig.jpg" width='350' height='200'>
+            </button>
+            <button onclick="loadArticleThree()">
+                <h3>How can I edit a video?</h3>
+                <img src="https://dronedj.com/wp-content/uploads/sites/2/2020/12/dronedj_3.jpg?quality=82&strip=all&w=1600" width='350' height='200'>
+            </button>
+            <button onclick="loadArticleFour()">
+                <h3>What are games and websites made from?</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/200px-Question_mark_%28black%29.svg.png" width='200' height='200'>
+            </button>
+            <button onclick="loadArticleFive()">
+                <h3>Example of code</h3>
+                <img src="https://code.org/shared/images/courses/logo_tall_weblab.jpg" width='350' height='200'>
+            </button>
+        </div>
+        </div>
+        <div id="shade"></div>
+        <div id="modal" style="text-align:center;">
+            <h1 id="loading-text">Loading...</h1>
+            <div class="loader" align="center"></div>
+        </div>
+        <div id="article-list">
+            <h1>Articles</h1>
+            <button>What is coding?</button>
+        </div>
+        <br><br><br>
+        <div id="articleOne">
+            <h1>What is coding?</h1>
+            <p>Coding is a thing that runs games, websites, and even your computer! Coding can go from zeros to ones to advacned lines of code.</p>
+            <p>Ada Lovelace made a new type of machine called a "Analytical Engine". A sort of computer thing. Then in the 1940s people started making computers and started coding in assebly langauge to make apps. People started making better computers, which allowed people to make better and faster programs with new languages. Now there are many langauges such as Java, Html, Python and more.</p>
+            <p>Coding is used for many things around the world. They use it for your websites you use and video games.</p>
+            <p>Coding Makes your things work. They tell the computer what to show on your screen. In video games, the code detects what keys you press and moves the character. Coding tells your programs to run. Without coding, computers wouldn't be a thing!</p>
+        </div>
+        <div id="articleTwo">
+            <h1>How to edit a picture</h1>
+            <p>Step 1. Go to <a href="https://pixlr.com">pixlr.com</a>. It will show you two options. The more basic editor, and the advanced editor. </p>
+            <img src="images/Screenshot 2021-05-11 114036.png"><br>
+            <p>Select which one you want. Then you can upload the picture you want and edit it using the tools on the left.</p>
+            <img src="images/Screenshot 2021-05-11 114127.png">
+        </div>
+        <div id="articleThree">
+            <h1>How to edit a video</h1>
+            <p>This example will be talking about using the web browser instead of an app.</p>
+            <ol>
+                <li>Go to <a href="https://www.kapwing.com/studio/editor">Kapwing Video Editor</a>.</li>
+                <li>Then, upload a file that you want to edit. Once you upload it, you will see this:</li>
+                <br>
+                <img src="images/Screenshot 2021-05-11 123921.png" width="750px" height="400px">
+                <br>
+                <li>From there, you can trim the video, add text and more!</li>
+            </ol>
+        </div>
+        <div id="articleFour">
+            <h1>What are games and websites made from?</h1>
+            <p>Websites are normally made from HTMl (Hyper Text Markup Language. It uses elements to display things on the screen.</p>
+            <br>
+            <p>Video games are made with Engines or other more powerful langauges like Java or python. Most games cannot be made in HTML because it can't run graphics or intense programs.</p>
+            <br>
+            <p>An engine, is a software that manages graphics, but also allows you to program the things. There are many games that are made in engines.</p>
+        </div>
+        <div id="articleFive">
+            <h1>What is an example of some code?</h1>
+            <p>Here is an example of code!</p>
+            <h2>Example of HTML Webpage structure</h2>
+            <textarea readonly style="border: none; width: 400px; height: 300px;">
+        &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;This is a title!&lt;/html&gt;
+                    &lt;style&gt;
+                    body {
+                        font-family:monospace;
+                    }
+                    &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;h1&gt;This is a heading!&lt;/h1&gt;
+                &lt;p&gt;This is a paragraph!&lt;/p&gt;
+            &lt;a href="https://https://google.com"&gt;This is a link!&lt;/a&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+            </textarea>
+            <h2>Example of Java Hello World</h2>
+            <textarea readonly style="border: none;height: 300px; width: 600px;">
+                public class Main {
+                    public static void main(String[] args) {
+                        System.out.println("Hello, World!"); 
+                    }
+                  }
+            </textarea>
+        </div>
+    </body>
+</html>
