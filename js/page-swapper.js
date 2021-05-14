@@ -53,8 +53,12 @@ function loadHomePage() {
   setTimeout(function(){
     document.getElementById("modal").style.display = "none";
     document.getElementById("shade").style.display = "none";
-    document.getElementById("article-list").style.display = "none";
     document.getElementById("articleOne").style.display = "none";
+    document.getElementById("articleTwo").style.display = "none";
+    document.getElementById("articleThree").style.display = "none";
+    document.getElementById("articleFour").style.display = "none";
+    document.getElementById("articleFive").style.display = "none";
+
     document.getElementById("main-page").style.display = "block";
     loading_text.innerHTML = "Loading..."
   }, 1200);
